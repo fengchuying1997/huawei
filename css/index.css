@@ -1,0 +1,147 @@
+.header {
+    width: 100%;
+    height: 36px;
+    background-color: #2E2828;
+}
+
+
+
+.header>.center>ul>li {
+    float: left;
+    font-size: 12px;
+    line-height: 36px;
+    padding: 0 8px;
+
+}
+
+.header>.center>ul>li:first-child {
+    padding-left: 0;
+}
+
+.header>.center>ul>li:last-child {
+    position: relative;
+    padding: 0 12px 0 10px;
+
+
+}
+
+.header>.center>ul>li>a {
+    color: #afafaf;
+}
+
+.header>.center>ul>li>a:hover {
+    color: #fff;
+}
+
+.header>.center>ul>li:last-child:hover>a {
+    color: red;
+}
+
+.header>.center>ul>li:last-child:hover {
+    background-color: #fff;
+}
+
+.header>.center>ul>li:last-child>a::before {
+    visibility: visible;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url(https://res8.vmallres.com/20210424/css/../images/echannel/icon/icon-common.svg) no-repeat;
+    background-position: -71px 0;
+    position: absolute;
+    top: 12px;
+    right: 28px;
+
+}
+
+.more_detail {
+    text-align: center;
+    background-color: #fff;
+    display: none;
+}
+
+.header>.center>ul>li:last-child:hover .more_detail {
+    display: block;
+}
+
+.more_detail li a {
+    color: #666;
+}
+
+.more_detail li a:hover {
+    color: red;
+}
+
+.header>.center>.r {
+    float: right;
+}
+
+.header>.center>.r>li {
+    float: left;
+}
+
+.header>.center>.r>li:last-child {
+    background-color: #424242;
+}
+
+
+/* 导航栏 */
+.nav .center .nav_all {
+    height: 74px;
+    
+}
+
+.nav .center .nav_all .nav_left {
+    float: left;
+    margin: 18px 0 15px;
+    font-size: 0;
+}
+
+.nav .center .nav_all .nav_left>img {
+    width: 205px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.nav .center .nav_all .nav_list {
+    float: left;
+
+}
+
+.nav .center .nav_all .nav_list li {
+    float: left;
+    font-size: 16px;
+    margin: 5px 15px;
+}
+
+.nav .center .nav_all .nav_list li a {
+    color: #333333;
+
+}
+.nav .center .nav_all .nav_list li:hover a{
+    color: red;
+}
+.nav_right{
+    float: right;
+    margin: 18px 0 15px;
+}
+.nav_right input{
+   
+    width: 220px;
+    height: 30px;
+    text-align: right;
+    padding-right: 40px;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px;
+    background: url(../images/search.png) no-repeat #f0f0f0;
+    background-position: 95% 50%;
+}
+
+
+/* 导航栏 */
+.banner{
+    width: 100%;
+    height: 560px;
+    background-color: pink;
+}

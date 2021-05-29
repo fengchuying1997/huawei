@@ -1,0 +1,35 @@
+/* 清除所有元素的内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 去掉a标签的下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 去掉列表的标记 */
+ul,
+ol {
+    list-style: none;
+}
+
+/* 你有可能把这个简单的css样式重置用于移动端开发 */
+html,
+body {
+    width: 100%;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/*IE/7/6*/
+.clearfix {
+    *zoom: 1;
+}

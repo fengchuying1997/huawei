@@ -1,0 +1,158 @@
+.hw-footer-slogan {
+  height: 82px;
+  background-color: #f9f9f9; }
+  .hw-footer-slogan .container ul li i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background: url("../img/icon/icon2.svg") no-repeat; }
+  .hw-footer-slogan .container ul li a {
+    color: #3a3a3a;
+    text-decoration: 0;
+    font-size: 18px;
+    margin-left: 10px; }
+  .hw-footer-slogan .container ul li:nth-child(1) i {
+    background-position: -74px 0; }
+  .hw-footer-slogan .container ul li:nth-child(2) i {
+    background-position: -154px 0; }
+  .hw-footer-slogan .container ul li:nth-child(3) i {
+    background-position: -194px 0; }
+  .hw-footer-slogan .container ul li:nth-child(4) i {
+    background-position: -114px 0; }
+
+.hw-footer-service {
+  height: 211px;
+  background-color: #f9f9f9; }
+  .hw-footer-service .container {
+    padding: 23px 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5; }
+    .hw-footer-service .container .hw-footer-service-left {
+      width: 75%; }
+      .hw-footer-service .container .hw-footer-service-left dl dt {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 5px;
+        font-weight: 400; }
+      .hw-footer-service .container .hw-footer-service-left dl dd {
+        margin: 0; }
+        .hw-footer-service .container .hw-footer-service-left dl dd a {
+          font-size: 12px;
+          color: #777;
+          text-decoration: none; }
+          .hw-footer-service .container .hw-footer-service-left dl dd a:hover {
+            color: #CA141D; }
+    .hw-footer-service .container .hw-footer-service-right {
+      width: 25%;
+      text-align: center;
+      color: #575757;
+      border-left: 1px solid #e5e5e5; }
+      .hw-footer-service .container .hw-footer-service-right > h3 {
+        font-size: 24px;
+        font-weight: 700; }
+      .hw-footer-service .container .hw-footer-service-right > p {
+        font-size: 12px; }
+      .hw-footer-service .container .hw-footer-service-right > a {
+        display: block;
+        margin: 0 auto;
+        width: 170px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #333333;
+        border-radius: 17px;
+        text-decoration: none; }
+        .hw-footer-service .container .hw-footer-service-right > a::before {
+          content: "";
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background: url("../img/icon/icon3.svg") no-repeat;
+          background-position: -106px 0;
+          position: relative;
+          top: 5px;
+          left: -8px; }
+        .hw-footer-service .container .hw-footer-service-right > a:hover {
+          background-color: #777; }
+      .hw-footer-service .container .hw-footer-service-right .service-b {
+        margin-left: 35px;
+        margin-top: 26px; }
+        .hw-footer-service .container .hw-footer-service-right .service-b h4 {
+          font-size: 14px;
+          color: #333;
+          font-weight: 400; }
+        .hw-footer-service .container .hw-footer-service-right .service-b ul {
+          width: 140px;
+          height: 24px; }
+          .hw-footer-service .container .hw-footer-service-right .service-b ul li {
+            float: left; }
+            .hw-footer-service .container .hw-footer-service-right .service-b ul li a {
+              display: block;
+              width: 24px;
+              height: 24px;
+              background: url("../img/icon/icon3.svg") no-repeat;
+              margin-right: 10px; }
+          .hw-footer-service .container .hw-footer-service-right .service-b ul li:nth-child(1) a {
+            background-position: -126px 0;
+            position: relative; }
+            .hw-footer-service .container .hw-footer-service-right .service-b ul li:nth-child(1) a i {
+              display: none;
+              position: absolute;
+              background: url("../img/footer/erweima.png") no-repeat;
+              width: 108px;
+              height: 108px;
+              background-size: contain;
+              top: 25px;
+              left: -35px; }
+            .hw-footer-service .container .hw-footer-service-right .service-b ul li:nth-child(1) a:hover i {
+              display: block; }
+          .hw-footer-service .container .hw-footer-service-right .service-b ul li:nth-child(2) a {
+            background-position: -150px 0; }
+          .hw-footer-service .container .hw-footer-service-right .service-b ul li:nth-child(3) a {
+            background-position: -174px 0; }
+          .hw-footer-service .container .hw-footer-service-right .service-b ul li:nth-child(4) a {
+            background-position: 0 -36px; }
+
+.hw-footer-end {
+  height: 134px;
+  background-color: #f9f9f9; }
+  .hw-footer-end .container {
+    padding-top: 25px;
+    padding-bottom: 28px; }
+    .hw-footer-end .container > div .hw-footer-end-left {
+      float: left;
+      width: 75%; }
+      .hw-footer-end .container > div .hw-footer-end-left img {
+        width: 82px;
+        height: 20px;
+        vertical-align: top; }
+      .hw-footer-end .container > div .hw-footer-end-left > div {
+        font-size: 12px;
+        color: #a4a4a4; }
+        .hw-footer-end .container > div .hw-footer-end-left > div ul {
+          font-size: 12px; }
+          .hw-footer-end .container > div .hw-footer-end-left > div ul li {
+            float: left; }
+            .hw-footer-end .container > div .hw-footer-end-left > div ul li a {
+              color: #777;
+              text-decoration: none;
+              border-right: 1px solid #d3d3d3;
+              padding-right: 6px;
+              margin-right: 6px; }
+              .hw-footer-end .container > div .hw-footer-end-left > div ul li a:hover {
+                color: #CA141D; }
+        .hw-footer-end .container > div .hw-footer-end-left > div ul:nth-child(2) li a {
+          color: #a4a4a4;
+          border: 0;
+          padding-right: 2px;
+          margin: 0; }
+    .hw-footer-end .container > div .hw-footer-end-right {
+      float: right;
+      width: 25%;
+      text-align: center; }
+      .hw-footer-end .container > div .hw-footer-end-right a img {
+        width: 100px; }
+
+/*# sourceMappingURL=footer.css.map */
