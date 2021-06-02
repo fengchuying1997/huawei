@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+// banner 轮播图
+.hw-banner {
+    position: relative;
+    height: 550px;
+
+    // 轮播图图片
+    .hw-banner-bg:nth-child(1) {
+        background: url("../img/lb/lb1.jpg") no-repeat 50%;
+    }
+
+    .hw-banner-bg:nth-child(2) {
+        background: url("../img/lb/lb2.jpg") no-repeat 50%;
+    }
+
+    .hw-banner-bg:nth-child(3) {
+        background: url("../img/lb/lb3.jpg") no-repeat 50%;
+    }
+
+    .hw-banner-bg:nth-child(4) {
+        background: url("../img/lb/lb4.png") no-repeat 50%;
+    }
+
+    .hw-banner-bg:nth-child(5) {
+        background: url("../img/lb/lb5.png") no-repeat 50%;
+    }
+
+    .hw-banner-bg:nth-child(6) {
+        background: url("../img/lb/lb6.jpg") no-repeat 50%;
+    }
+
+    // 左按钮
+    .hw-banner-prev {
+        width: 80px;
+        height: 80px;
+        background-image: url(../img/icon/icon2.svg);
+        background-position: 0 -72px;
+        background-size: auto;
+
+        &:hover {
+            background-position: -240px -72px;
+        }
+    }
+
+    // 右按钮
+    .hw-banner-next {
+        width: 80px;
+        height: 80px;
+        background-image: url(../img/icon/icon2.svg);
+        background-position: -80px -72px;
+        background-size: auto;
+
+        &:hover {
+            background-position: -160px -72px;
+        }
+    }
+
+    // 小圆点
+    .hw-ind {
+        margin-left: 75%;
+        bottom: 25px;
+
+        li {
+            width: 15px;
+            height: 15px;
+            background-color: transparent;
+            border: 1px solid #fff;
+            border-radius: 50%
+        }
+
+        .active {
+            background-color: #fff;
+        }
+    }
+
+    // 轮播图底部圆弧图片
+    .hw-banner-bt {
+        position: absolute;
+        bottom: 0;
+        height: 72px;
+        background: url(../img/lb/bg-slide.png) no-repeat;
+        background-size: 100% 72px;
+    }
+
+    // 轮播图列表
+    .hw-banner-list {
+        position: absolute;
+        top: 15px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: rgba(#fdf5f5, 0.8);
+        font-size: 14px;
+        color: #848484;
+
+        &:hover {
+            border-radius: 10px 0 0 10px;
+        }
+
+        .hw-banner-list-item {
+            position: relative;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 16px;
+            cursor: pointer;
+
+            &::after {
+                content: "";
+                width: 16px;
+                height: 16px;
+                background: url(../img/icon/icon3.svg) no-repeat;
+                background-position: -60px 0;
+                position: absolute;
+                top: 50%;
+                right: 15px;
+                margin-top: -8px;
+                z-index: 10;
+            }
+
+            &:hover {
+                background-color: #fff;
+
+                .hw-banner-list-item-detail {
+                    display: block;
+                }
+            }
+
+            span {
+                &:hover {
+                    color: #ca141d;
+                }
+            }
+
+            .hw-banner-list-item-detail {
+                height: 440px;
+                background-color: #fff;
+                padding-left: 32px;
+                padding-top: 20px;
+                position: absolute;
+                // position: fixed;
+                top: 0;
+                left: 200px;
+                border-radius: 0 10px 10px 0;
+                display: none;
+
+                ul {
+
+                    li {
+                        width: 200px;
+                        height: 60px;
+                        border-radius: 10px;
+                        padding-top: 10px;
+                        margin-right: 10px;
+                        margin-top: 10px;
+
+                        a {
+                            display: inline-block;
+                            width: 48px;
+                            height: 48px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        span {
+                            color: #666;
+                        }
+
+                        &:hover {
+                            background-color: #f6f6f6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 新品模块
+.hw-new-product-module {
+    ul {
+        height: 200px;
+        margin: 20px 0 30px;
+
+        li {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            justify-content: space-between;
+            margin-right: 10px;
+
+            a {
+                img {
+                    // width: 290px;
+                    height: 200px;
+                }
+            }
+
+            &:hover {
+                box-shadow: 0 5px 15px 5px #f2f2f2;
+            }
+        }
+    }
+}
+
+// 热销单品模块
+.hw-hot-item {
+
+    .hw-hot-item-title {
+        font-size: 26px;
+        color: #333;
+        padding: 0 0 13px 0;
+        font-weight: 400;
+    }
+
+    .hw-hot-item-content {
+        height: 592px;
+
+        // 左边
+        .hw-hot-item-content-left {
+            flex: 1;
+            margin-right: 10px;
+
+            a {
+                border-radius: 10px;
+
+                img {
+                    border-radius: 10px;
+                }
+            }
+
+            &:hover {
+                box-shadow: 0 5px 15px 10px #fbfbfb;
+            }
+        }
+
+        // 右边
+        .hw-hot-item-content-right {
+            flex: 4;
+
+            >div {
+                flex: 1;
+
+                ul {
+                    li {
+                        background-color: #f9f9f9;
+                        flex: 1;
+
+                        a {
+                            text-decoration: none;
+
+                            img {
+                                width: 150px;
+                                height: 150px;
+                            }
+
+                            h4 {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #3a3a3a;
+                                margin-top: 10px;
+                            }
+
+                            h5 {
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: #777;
+                            }
+
+                            p {
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #d0021b;
+                            }
+                        }
+
+                        &:hover {
+                            box-shadow: 0 5px 15px 10px #fbfbfb;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,732 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <title>华为商城</title>
+    <style></style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="hw-header">
+        <div class="container" style="min-width: 1024px;">
+            <div class="position-relative clearfix">
+                <!-- 头部左边 -->
+
+                <ul class="hw-header-left list-unstyled clearfix mb-0">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">华为官网</a></li>
+                    <li><a href="#">花粉俱乐部</a></li>
+                    <li><a href="#">V码(优购码)</a></li>
+                    <li><a href="#">企业购</a></li>
+                    <li><a href="#">Select Region</a></li>
+                    <li class="dropdown">
+                        <a href="#">更多精彩</a>
+                        <div class="hw-header-dropdown">
+                            <ul class="list-unstyled text-center">
+                                <li>
+                                    <a href="#">EMUI</a>
+                                </li>
+                                <li>
+                                    <a href="#">应用市场</a>
+                                </li>
+                                <li>
+                                    <a href="#">华为终端云空间</a>
+                                </li>
+                                <li>
+                                    <a href="#" c>开发者联盟</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 头部头边 -->
+                <ul class="hw-header-right list-unstyled clearfix m-0">
+                    <li><a href="#">请登录</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="dropdown">
+                        <a href="#">客户服务</a>
+                        <div class="hw-header-dropdown">
+                            <ul class="list-unstyled text-center">
+                                <li>
+                                    <a href="#">服务中心</a>
+                                </li>
+                                <li>
+                                    <a href="#">联系客服</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="#">网站导航</a></li>
+                    <li class="dropdown"><a href="#">手机版</a></li>
+                    <li class="dropdown-shop"><a href="#" class="car">购物车(0)</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 头部导航条 -->
+    <div class="hw-header-nav m-0">
+        <div class="container" style="min-width: 1024px;">
+            <div class="clearfix w-100">
+                <!-- 左边 -->
+                <div class="hw-header-nav-left float-left">
+                    <a href="index.html" class="float-left">
+                        <img src="./img/header/logo.png" alt="">
+                    </a>
+                    <ul class="list-unstyled hw-header-nav-left-list float-left">
+                        <li>
+                            <a href="#"><img src="./img/header/icro.png" alt=""></a>
+                        </li>
+                        <li><a href="#">莫塞尔专区</a></li>
+                        <li><a href="#">华为智选</a></li>
+                        <li><a href="#">智能家居</a></li>
+                        <li><a href="#">福利中心</a></li>
+                    </ul>
+                </div>
+                <!-- 右边 -->
+                <div class="hw-header-nav-right float-right">
+                    <input type="text" class="float-left pl-3" placeholder="Mate X2 FreeBuds 4">
+                    <img src="./img/header/search.png" alt="" class="float-right">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner区域-->
+    <div class="hw-banner w-100 position-relative">
+        <!--  轮播图  -->
+        <div class="carousel slide h-100" data-ride="carousel" id="banner">
+            <!-- 展示图区域 -->
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100 hw-banner-bg">
+                </div>
+                <div class="carousel-item h-100 hw-banner-bg">
+                </div>
+                <div class="carousel-item h-100 hw-banner-bg">
+                </div>
+                <div class="carousel-item h-100 hw-banner-bg">
+                </div>
+                <div class="carousel-item h-100 hw-banner-bg">
+                </div>
+                <div class="carousel-item h-100 hw-banner-bg">
+                </div>
+            </div>
+
+            <!-- 左右控制 -->
+
+            <a href="#banner" class="carousel-control-prev" data-slide="prev" style="left: 250px">
+                <span class="carousel-control-prev-icon hw-banner-prev"></span>
+            </a>
+            <a href="#banner" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon hw-banner-next"></span>
+            </a>
+
+            <!-- 指示符列表 -->
+            <ul class="carousel-indicators hw-ind mr-0">
+                <li class="active" data-slide-to="0" data-target="#banner"></li>
+                <li data-slide-to="1" data-target="#banner"></li>
+                <li data-slide-to="2" data-target="#banner"></li>
+                <li data-slide-to="3" data-target="#banner"></li>
+                <li data-slide-to="4" data-target="#banner"></li>
+                <li data-slide-to="5" data-target="#banner"></li>
+            </ul>
+        </div>
+
+        <!-- 轮播图底部 -->
+        <div class="hw-banner-bt w-100">
+        </div>
+
+        <!-- 轮播图列表 -->
+        <div class="container">
+            <ul class="hw-banner-list list-unstyled">
+                <li class="hw-banner-list-item" style="border-top-left-radius: 10px;">
+                    <span>手机</span>
+                    <div class="hw-banner-list-item-detail">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>智能穿戴&VR</span>
+                    <div class="hw-banner-list-item-detail" style="top: -40px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>耳机音箱眼镜</span>
+                    <div class="hw-banner-list-item-detail" style="top: -80px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>智慧屏</span>
+                    <div class="hw-banner-list-item-detail" style="top: -120px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>电脑</span>
+                    <div class="hw-banner-list-item-detail" style="top: -160px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>平板</span>
+                    <div class="hw-banner-list-item-detail" style="top: -200px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>智能路由</span>
+                    <div class="hw-banner-list-item-detail" style="top: -240px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>配件</span>
+                    <div class="hw-banner-list-item-detail" style="top: -280px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>生态产品</span>
+                    <div class="hw-banner-list-item-detail" style="top: -320px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item">
+                    <span>美食酒饮</span>
+                    <div class="hw-banner-list-item-detail" style="top: -360px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+                <li class="hw-banner-list-item" style="border-bottom-left-radius: 10px;">
+                    <span>增值服务&企业商用</span>
+                    <div class="hw-banner-list-item-detail" style="top: -400px;">
+                        <ul class="list-unstyled  d-flex flex-column flex-wrap justify-content-start h-100">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list1.png" alt="">
+                                </a>
+                                <span>HUAWEI Mate系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list2.png" alt="">
+                                </a>
+                                <span>HUAWEI P系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list3.png" alt="">
+                                </a>
+                                <span>HUAWEI nova系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="./img/lb/list4.png" alt="">
+                                </a>
+                                <span>华为畅享系列</span>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 新品模块 -->
+    <div class="hw-new-product-module">
+        <div class="container">
+            <ul class="d-flex w-100 list-unstyled">
+                <li>
+                    <a href="javascript:;">
+                        <img src="./img/product/xinpin1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./img/product/xinpin2.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./img/product/xinpin3.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./img/product/xinpin4.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 热销单品模块 -->
+    <div class="hw-hot-item">
+        <div class="container">
+            <h2 class="hw-hot-item-title">热销单品</h2>
+            <div class="hw-hot-item-content d-flex">
+                <div class="hw-hot-item-content-left">
+                    <a href="javascript:;" class="d-block w-100 h-100">
+                        <img src="./img/product/hot-item-left.png" alt="" class="w-100 h-100">
+                    </a>
+                </div>
+                <div class="hw-hot-item-content-right d-flex flex-column">
+                    <div class="hw-hot-item-content-right-top mb-2">
+                        <ul class="list-unstyled d-flex h-100 m-0">
+                            <li class="h-100 mr-2">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right1.png" alt="">
+                                    <h4>FreeBuds 4i</h4>
+                                    <h5>限时优惠100元</h5>
+                                    <p>¥399</p>
+                                </a>
+                            </li>
+                            <li class="h-100 mr-2">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right2.png" alt="">
+                                    <h4>HUAWEI Mate 40E 5G</h4>
+                                    <h5>跃见非凡  </h5>
+                                    <p>¥4599</p>
+                                </a>
+                            </li>
+                            <li class="h-100 mr-2">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right3.png" alt="">
+                                    <h4>酷轻松气囊支撑腰带</h4>
+                                    <h5>强力支撑牵引 缓解腰部压力  </h5>
+                                    <p>¥329</p>
+                                </a>
+                            </li>
+                            <li class="h-100">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right4.png" alt="">
+                                    <h4>FreeBuds Pro</h4>
+                                    <h5>最高省200元  </h5>
+                                    <p>¥899</p>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="hw-hot-item-content-right-bottom">
+                        <ul class="list-unstyled d-flex h-100 m-0">
+                            <li class="h-100 mr-2">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right5.png" alt="">
+                                    <h4>HUAWEI Mate 40 RS保时捷设计</h4>
+                                    <h5>致敬时代  </h5>
+                                    <p>¥10999</p>
+                                </a>
+                            </li>
+                            <li class="h-100 mr-2">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right6.png" alt="">
+                                    <h4>HUAWEI Mate 40 5G</h4>
+                                    <h5>限量发售  </h5>
+                                    <p>¥4999</p>
+                                </a>
+                            </li>
+                            <li class="h-100 mr-2">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right7.png" alt="">
+                                    <h4>涡轮六叶剃须刀</h4>
+                                    <h5>创新六叶刀片  </h5>
+                                    <p>¥199</p>
+                                </a>
+                            </li>
+                            <li class="h-100">
+                                <a href="javascript:;" class="h-100 d-flex flex-column justify-content-center align-items-center">
+                                    <img src="./img/product/hot-item-right8.png" alt="">
+                                    <h4>nova 8 Pro</h4>
+                                    <h5>限时开售  </h5>
+                                    <p>¥3799</p>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

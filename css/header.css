@@ -52,7 +52,8 @@
         background-color: #fff;
         border-radius: 10px 0 10px 10px;
         top: 36px;
-        left: -43px; }
+        left: -43px;
+        z-index: 10; }
         .hw-header .hw-header-left .dropdown .hw-header-dropdown ul > li > a {
           color: #838383;
           text-decoration: 0; }
