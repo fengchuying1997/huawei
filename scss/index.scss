@@ -284,3 +284,351 @@
         }
     }
 }
+
+// 精品推荐模块
+.hw-recommend {
+    cursor: pointer;
+
+    .hw-recommend-title {
+        font-size: 26px;
+        color: #333;
+        padding: 0 0 13px 0;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+
+    .hw-recommend-content {
+
+        // height: 295px;
+        .hw-recommend-content-item {
+            flex: 1;
+            margin-right: 10px;
+
+            .hw-recommend-content-item-top {
+                background-color: #fff;
+                border: 1px solid #f9f9f9;
+                box-shadow: 0 1px 8px #f9f9f9;
+                border-radius: 10px;
+
+                em {
+                    height: 36px;
+                }
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    height: 36px;
+                    font-size: 14px;
+                    line-height: 36px;
+                    color: #777;
+                    background-color: #f3f3f3;
+                    border-radius: 0 0 10px 10px;
+
+                }
+            }
+
+            h4 {
+                font-size: 14px;
+                font-weight: 400;
+                color: #3a3a3a;
+                line-height: 21px;
+            }
+
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #d0021b;
+                line-height: 18px;
+            }
+        }
+
+        .hw-recommend-content-item:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+// 手机模块
+.hw-phone {
+    // 标题栏
+    .hw-phone-title {
+        margin-top: 30px;
+        ul {
+            li{
+                float: left;
+                font-size: 14px;
+                
+                padding: 0 0 13px 0;
+                // font-weight: 400;
+                
+                margin-right: 24px;
+                line-height: 32px;
+                a{
+                    text-decoration: none;
+                    color: #999;
+                    &:hover{
+                        color: #d0021b;
+                    }
+                }  
+            }
+            li:first-child {
+                font-size: 26px;
+                color: #333;
+                padding: 0 0 13px 0;
+                font-weight: 400;
+                
+            }
+            
+        }
+        span{
+            float: right;
+            font-size: 14px;
+            color: #3a3a3a;
+            cursor: pointer;
+            line-height: 32px;
+            padding-right: 20px;
+            position: relative;
+            &:hover{
+                color: #d0021b;
+            }
+            &::after{
+                content: "";
+                display: block;
+                width: 18px;
+                height: 14px;
+                background: url(../img/icon/icon3.svg) no-repeat;
+                background-position: -48px 0;
+                position: absolute;
+                top: 9px;
+                right: 0;
+            }
+        }
+    }
+    // 内容栏
+    .hw-phone-content{
+        height: 290px;
+        >div{
+            flex: 1;
+            border-radius: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        >div:nth-child(1){
+            img{
+                height: 290px;
+                border-radius: 10px;
+            }
+        }
+        .hw-phone-content-item{
+            background-color: #f9f9f9;
+            img{
+                height: 150px;
+            }
+            h4{
+                font-size: 14px;
+                font-weight: 400;
+                color: #3a3a3a;
+            }
+            h5{
+                font-size: 12px;
+                font-weight: 400;
+                color: #777;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #d0021b;
+            }
+        }
+    }
+}
+
+// 手表模块
+.hw-watch{
+    // 标题栏
+    .hw-watch-title {
+        margin-top: 30px;
+        ul {
+            li{
+                float: left;
+                font-size: 14px;
+                
+                padding: 0 0 13px 0;
+                // font-weight: 400;
+                
+                margin-right: 24px;
+                line-height: 32px;
+                a{
+                    text-decoration: none;
+                    color: #999;
+                    &:hover{
+                        color: #d0021b;
+                    }
+                }  
+            }
+            li:first-child {
+                font-size: 26px;
+                color: #333;
+                padding: 0 0 13px 0;
+                font-weight: 400;
+                
+            }
+            
+        }
+        span{
+            float: right;
+            font-size: 14px;
+            color: #3a3a3a;
+            cursor: pointer;
+            line-height: 32px;
+            padding-right: 20px;
+            position: relative;
+            &:hover{
+                color: #d0021b;
+            }
+            &::after{
+                content: "";
+                display: block;
+                width: 18px;
+                height: 14px;
+                background: url(../img/icon/icon3.svg) no-repeat;
+                background-position: -48px 0;
+                position: absolute;
+                top: 9px;
+                right: 0;
+            }
+        }
+    }
+
+    // 内容栏
+    .hw-watch-content{
+        // 第一行
+        .hw-watch-content-1{
+            height: 290px;
+            >div{
+                border-radius: 10px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            div:nth-child(1){
+                flex: 2;
+                img{
+                    height: 290px;
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
+            .hw-watch-content-item{
+                flex: 1;
+                background-color: #f9f9f9;
+                img{
+                    height: 150px;
+                }
+                h4{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #3a3a3a;
+                }
+                h5{
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #777;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #d0021b;
+                }
+            }
+        }
+        
+        // 第二行
+        .hw-watch-content-2{
+            height: 290px;
+            >div{
+                border-radius: 10px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            
+            .hw-watch-content-item{
+                flex: 1;
+                background-color: #f9f9f9;
+                img{
+                    height: 150px;
+                }
+                h4{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #3a3a3a;
+                }
+                h5{
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: #777;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #d0021b;
+                }
+            }
+        }
+
+        // 第三行
+        .hw-watch-content-3{
+            // height: 240px;
+            .hw-watch-content-item {
+                flex: 1;
+                margin-right: 10px;
+    
+                .hw-watch-content-item-top {
+                    padding-top: 32px;
+                    background-color: #fff;
+                    border: 1px solid #f9f9f9;
+                    box-shadow: 0 1px 8px #f9f9f9;
+                    border-radius: 10px;
+    
+                    
+    
+                    img {
+                        width: 120px;
+                        height: 120px;
+                        margin-bottom: 20px;
+                    }
+    
+                    p {
+                        height: 32px;
+                        font-size: 14px;
+                        line-height: 32px;
+                        color: #777;
+                        background-color: #f3f3f3;
+                        border-radius: 0 0 10px 10px;
+    
+                    }
+                }
+    
+                h4 {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #3a3a3a;
+                    line-height: 21px;
+                }
+    
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #d0021b;
+                    line-height: 21px;
+                }
+            }
+            .hw-watch-content-item:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
