@@ -357,5 +357,35 @@
         width: 375px;
         color: #999;
         font-size: 14px; }
+.hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales h2 {
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid #ccc;
+  padding: 14px 0; }
+.hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .baozhuang, .hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .shouhou {
+  font-size: 14px;
+  color: #3a3a3a;
+  padding: 38px 30px 40px 130px; }
+  .hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .baozhuang li, .hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .shouhou li {
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 16px; }
+    .hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .baozhuang li::before, .hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .shouhou li::before {
+      content: "";
+      display: block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #d8d8d8;
+      position: absolute;
+      top: 8px;
+      left: 0; }
+.hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .baozhuang {
+  display: flex;
+  flex-wrap: wrap; }
+  .hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .baozhuang li {
+    flex: 25%; }
+.hw-product-introduce .hw-product-introduce-details .hw-product-introduce-details-aftersales .shouhou li {
+  margin-bottom: 5px; }
 
 /*# sourceMappingURL=detail.css.map */

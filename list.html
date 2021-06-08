@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="hw-header">
+        <div class="container" style="min-width: 1024px;">
+            <div class="position-relative clearfix">
+                <!-- 头部左边 -->
+
+                <ul class="hw-header-left list-unstyled clearfix mb-0">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">华为官网</a></li>
+                    <li><a href="#">花粉俱乐部</a></li>
+                    <li><a href="#">V码(优购码)</a></li>
+                    <li><a href="#">企业购</a></li>
+                    <li><a href="#">Select Region</a></li>
+                    <li class="dropdown">
+                        <a href="#">更多精彩</a>
+                        <div class="hw-header-dropdown">
+                            <ul class="list-unstyled text-center">
+                                <li>
+                                    <a href="#">EMUI</a>
+                                </li>
+                                <li>
+                                    <a href="#">应用市场</a>
+                                </li>
+                                <li>
+                                    <a href="#">华为终端云空间</a>
+                                </li>
+                                <li>
+                                    <a href="#" c>开发者联盟</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- 头部头边 -->
+                <ul class="hw-header-right list-unstyled clearfix m-0">
+                    <li><a href="#">请登录</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="dropdown">
+                        <a href="#">客户服务</a>
+                        <div class="hw-header-dropdown">
+                            <ul class="list-unstyled text-center">
+                                <li>
+                                    <a href="#">服务中心</a>
+                                </li>
+                                <li>
+                                    <a href="#">联系客服</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown"><a href="#">网站导航</a></li>
+                    <li class="dropdown"><a href="#">手机版</a></li>
+                    <li class="dropdown-shop"><a href="#" class="car">购物车(0)</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 头部导航条 -->
+    <div class="hw-header-nav m-0 mb-1 bg-white">
+        <div class="container" style="min-width: 1024px;">
+            <div class="clearfix w-100 position-relative">
+                <!-- 左边 -->
+                <div class="hw-header-nav-left float-left">
+                    <a href="index.html" class="float-left">
+                        <img src="./img/header/logo.png" alt="">
+                    </a>
+                    <!-- 全部商品分类 -->
+                    <div class="hw-header-nav-left-sort">
+                        <a href="#">全部商品分类</a>
+                    </div>
+                    <ul class="list-unstyled hw-header-nav-left-list float-left">
+
+                        <li>
+                            <a href="#"><img src="./img/header/icro.png" alt=""></a>
+                        </li>
+                        <li><a href="#">莫塞尔专区</a></li>
+                        <li><a href="#">华为智选</a></li>
+                        <li><a href="#">智能家居</a></li>
+                        <li><a href="#">福利中心</a></li>
+                    </ul>
+                </div>
+
+                <!-- 右边 -->
+                <div class="hw-header-nav-right float-right">
+                    <input type="text" class="float-left pl-3" placeholder="Mate X2 FreeBuds 4">
+                    <img src="./img/header/search.png" alt="" class="float-right">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 面包屑导航 -->
+    <div class="container">
+        <div class="hw-breadcrumb breadcrumb">
+            <a href="javascript:;" class="breadcrumb-item">首页</a>
+            <a href="javascript:;" class="breadcrumb-item">手机</a>
+            <a href="javascript:;" class="breadcrumb-item">HUAWEI Mate系列</a>
+        </div>
+    </div>
+
+    <!-- 分类页面 -->
+    <div class="hw-classify">
+        <div class="container h-100">
+            <div class="bg-white h-100">
+                <div class="hw-classify-item clearfix">
+                    <div>分类：</div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="javascript:;">手机</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hw-classify-item clearfix">
+                    <div>服务优惠：</div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="javascript:;">仅看有货</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">分期免息</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">优惠商品</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hw-classify-item clearfix">
+                    <div>屏幕尺寸：</div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="javascript:;">6.0-6.5英寸</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">6.5英寸以上</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hw-classify-item clearfix">
+                    <div>更多选项：</div>
+                    <ul class="list-unstyled pl-3">
+                        <li class="position-relative">
+                            <a href="javascript:;" class="hw-option">运行内存</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="javascript:;" class="hw-option">存储容量</a>
+                        </li>
+                        <li class="position-relative">
+                            <a href="javascript:;" class="hw-option">上市时间</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hw-classify-item clearfix border-0">
+                    <div>排序：</div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="javascript:;" style="color: #ca141d">综合</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">最新</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">评论数</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">价格</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 手机列表页 -->
+    <div class="hw-list mt-4 mb-5">
+        <div class="container">
+            <div class="hw-list-items w-100">
+                <div class="hw-list-item">
+                    <img src="./img/list/list1.png" alt="">
+                    <h2>HUAWEI Mate 40 Pro</h2>
+                    <p class="clearfix">
+                        <b>¥6299</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>116784人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list2.png" alt="">
+                    <h2>HUAWEI Mate 40 RS保时捷设计</h2>
+                    <p class="clearfix">
+                        <b>¥10999</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>21842人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list3.png" alt="">
+                    <h2>HUAWEI Mate 40 Pro+</h2>
+                    <p class="clearfix">
+                        <b>¥8499</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>3886人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list4.png" alt="">
+                    <h2>HUAWEI Mate 30</h2>
+                    <p class="clearfix">
+                        <b>¥3699</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>22719人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list5.png" alt="">
+                    <h2>【HarmonyOS 2】HUAWEI Mate 40 Pro</h2>
+                    <p class="clearfix">
+                        <b>¥6099</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>116784人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list6.png" alt="">
+                    <h2>【HarmonyOS 2】HUAWEI Mate 40E/h2>
+                        <p class="clearfix">
+                            <b>¥4199</b>
+                            <span>多款可选</span>
+                        </p>
+                        <p>
+                            <span>赠送积分</span>
+                        </p>
+                        <p>
+                            <span>9288人评价</span>
+                            <span>99%好评</span>
+                        </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list7.png" alt="">
+                    <h2>HUAWEI Mate Xs</h2>
+                    <p class="clearfix">
+                        <b>¥16999</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>10547人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list8.png" alt="">
+                    <h2>HUAWEI Mate 40E</h2>
+                    <p class="clearfix">
+                        <b>¥4199</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>9288人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list9.png" alt="">
+                    <h2>HUAWEI Mate 40</h2>
+                    <p class="clearfix">
+                        <b>¥4999</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>33917人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list10.png" alt="">
+                    <h2>HUAWEI Mate X2</h2>
+                    <p class="clearfix">
+                        <b>¥18999</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>7182人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list11.png" alt="">
+                    <h2>HUAWEI Mate 30 5G</h2>
+                    <p class="clearfix">
+                        <b>¥4499</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>49981人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list12.png" alt="">
+                    <h2>HUAWEI Mate 30 RS 保时捷设计</h2>
+                    <p class="clearfix">
+                        <b>¥12999</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>6044人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list13.png" alt="">
+                    <h2>HUAWEI Mate 30 Pro</h2>
+                    <p class="clearfix">
+                        <b>¥5399</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>6044人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list14.png" alt="">
+                    <h2>HUAWEI Mate 30E Pro</h2>
+                    <p class="clearfix">
+                        <b>¥5299</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>7392人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+                <div class="hw-list-item">
+                    <img src="./img/list/list15.png" alt="">
+                    <h2>HUAWEI Mate 30 Pro 5G</h2>
+                    <p class="clearfix">
+                        <b>¥5899</b>
+                        <span>多款可选</span>
+                    </p>
+                    <p>
+                        <span>赠送积分</span>
+                    </p>
+                    <p>
+                        <span>65607人评价</span>
+                        <span>99%好评</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部第一部分 -->
+    <div class="hw-footer-slogan">
+        <div class="container h-100" style="min-width: 1024px;">
+            <div class="h-100 d-flex align-items-center">
+                <ul class="w-100 d-flex justify-content-between list-unstyled m-0 ">
+                    <li>
+                        <i></i>
+                        <a href="#">百强企业 品质保证</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">7天退货 15天换货</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">48元起免运费</a>
+                    </li>
+                    <li>
+                        <i></i>
+                        <a href="#">2000家服务店 全国联保</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部第二部分 -->
+    <div class="hw-footer-service">
+        <div class="container h-100" style="min-width: 1024px;">
+            <div class="w-100 h-100 d-flex justify-content-between">
+                <!-- 左边 -->
+                <div class="hw-footer-service-left d-flex justify-content-between pr-5 mr-5">
+                    <dl>
+                        <dt>购物相关</dt>
+                        <dd>
+                            <a href="#">购物指南</a>
+                        </dd>
+                        <dd>
+                            <a href="#">配送方式</a>
+                        </dd>
+                        <dd>
+                            <a href="#">支付方式</a>
+                        </dd>
+                        <dd>
+                            <a href="#">常见问题</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            保修与退换货
+                        </dt>
+                        <dd>
+                            <a href="#">保修政策</a>
+                        </dd>
+                        <dd>
+                            <a href="#">退换货政策</a>
+                        </dd>
+                        <dd>
+                            <a href="#">保修状态查询</a>
+                        </dd>
+                        <dd>
+                            <a href="#">配件防伪查询</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            维修与技术支持
+                        </dt>
+                        <dd>
+                            <a href="#">服务店</a>
+                        </dd>
+                        <dd>
+                            <a href="#">预约维修</a>
+                        </dd>
+                        <dd>
+                            <a href="#">手机寄修</a>
+                        </dd>
+                        <dd>
+                            <a href="#">备件价格查询</a>
+                        </dd>
+                        <dd>
+                            <a href="#">上门服务</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            特色服务
+                        </dt>
+                        <dd>
+                            <a href="#">防伪查询</a>
+                        </dd>
+                        <dd>
+                            <a href="#">补购保障</a>
+                        </dd>
+                        <dd>
+                            <a href="#">以旧换新</a>
+                        </dd>
+                        <dd>
+                            <a href="#">礼品包装</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            关于我们
+                        </dt>
+                        <dd>
+                            <a href="#">公司介绍</a>
+                        </dd>
+                        <dd>
+                            <a href="#">华为商城简介</a>
+                        </dd>
+                        <dd>
+                            <a href="#">华为零售店</a>
+                        </dd>
+                        <dd>
+                            <a href="#">商家中心</a>
+                        </dd>
+                        <dd>
+                            <a href="#">意见反馈</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            友情链接
+                        </dt>
+                        <dd>
+                            <a href="#">华为集团</a>
+                        </dd>
+                        <dd>
+                            <a href="#">华为CBG官网</a>
+                        </dd>
+                        <dd>
+                            <a href="#">花粉俱乐部</a>
+                        </dd>
+                        <dd>
+                            <a href="#">华为云</a>
+                        </dd>
+                        <dd>
+                            <a href="#">华为应用市场</a>
+                        </dd>
+                    </dl>
+                </div>
+
+                <!-- 右边 -->
+                <div class="hw-footer-service-right">
+
+                    <h3>950805</h3>
+                    <p>7x24小时客服热线（仅收市话费）</p>
+                    <a href="#">在线客服</a>
+                    <div class="service-b">
+                        <h4 class="float-left mb-0 mt-1">关注Vmall：</h4>
+                        <ul class="list-unstyled float-left mb-0">
+                            <li class="position-relative">
+                                <a href="javascript:;">
+                                    <i></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部第三部分 -->
+    <div class="hw-footer-end">
+        <div class="container h-100" style="min-width: 1024px;">
+            <div class="w-100 h-100">
+                <!-- 左边 -->
+                <div class="hw-footer-end-left">
+                    <img src="./img/footer/footer.png" alt="" class="float-left mr-4">
+                    <div class="float-left">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="javascript:;">华为集团</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">华为CBG官网</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">花粉俱乐部</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">华为应用市场</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">EMUI</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">华为终端云空间</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">开发者联盟</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">华为商城手机版</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="border-0">网站地图</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="javascript:;">隐私声明</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">服务协议</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">COOKIES</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"> Copyright © 2012-2021</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">华为终端有限公司 版权所有 </a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"
+                                    style="border-right: 1px solid #d3d3d3;margin-right: 2px">粤ICP备19015064号</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">粤公网安备 44190002003939号</a>
+                            </li>
+
+                        </ul>
+                        增值电信业务经营许可证：粤B2-20190762
+                        <em>|</em>
+                        备案主体编号：44201919072182
+                        <em>|</em>
+                        粤新出网备（2021）2号
+                        <br>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="javascript:;" style="color: #a4a4a4;">互联网药品信息服务资格证（粤）-非经营性-2020-0102</a>
+                            </li>
+                            <li>粤东食药监械经营备20203930</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 右边 -->
+                <div class="hw-footer-end-right">
+                    <a href="javascript:;">
+                        <img src="./img/footer/zhizhao.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var list = document.getElementsByClassName("hw-list-items")[0];
+        list.onclick = function () {
+            window.location.href = "detail.html";
+        }
+    </script>
+</body>
+
+</html>

@@ -521,6 +521,7 @@
 
 // 商品详情介绍
 .hw-product-introduce {
+
     .hw-product-introduce-title {
         a {
             margin: 0 auto;
@@ -530,6 +531,7 @@
     }
 
     .hw-product-introduce-details {
+            // 规格参数
         .hw-product-introduce-details-content {
             .hw-product-introduce-details-content-item {
                 border-bottom: 1px solid #d8d8d8;
@@ -575,5 +577,51 @@
             }
 
         }
+            // 包装与售后
+        .hw-product-introduce-details-aftersales{
+            h2{
+                font-size: 18px;
+                font-weight: 400;
+                border-bottom: 1px solid #ccc;
+                padding: 14px 0;
+            }
+            .baozhuang,.shouhou{
+                font-size: 14px;
+                color: #3a3a3a;
+                
+                padding: 38px 30px 40px 130px;
+                li{
+                    
+                    position: relative;
+                    padding-left: 16px;
+                    margin-bottom: 16px;
+                    &::before{
+                        content: "";
+                        display: block;
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 50%;
+                        background-color: #d8d8d8;
+                        position: absolute;
+                        top: 8px;
+                        left: 0;
+                    }
+                }
+            }
+            .baozhuang{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    flex: 25%;
+                }
+            }
+            .shouhou{
+                li{
+                    margin-bottom: 5px;
+                }
+            }
+        }
     }
+
+    
 }
