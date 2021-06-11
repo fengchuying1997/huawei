@@ -12,7 +12,11 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <title>华为商城</title>
-    <style></style>
+    <style>
+        body{
+            min-width: 1200px;
+        }
+    </style>
 </head>
 
 <body>
@@ -79,7 +83,7 @@
 
     <!-- 头部导航条 -->
     <div class="hw-header-nav m-0">
-        <div class="container" style="min-width: 1024px;">
+        <div class="container">
             <div class="clearfix w-100">
                 <!-- 左边 -->
                 <div class="hw-header-nav-left float-left">
@@ -106,9 +110,9 @@
     </div>
 
     <!-- banner区域-->
-    <div class="hw-banner w-100 position-relative">
+    <div class="hw-banner w-100">
         <!--  轮播图  -->
-        <div class="carousel slide h-100" data-ride="carousel" id="banner">
+        <div class="carousel slide h-100 position-relative" data-ride="carousel" id="banner">
             <!-- 展示图区域 -->
             <div class="carousel-inner h-100">
                 <div class="carousel-item active h-100 hw-banner-bg">
@@ -126,13 +130,15 @@
             </div>
 
             <!-- 左右控制 -->
-
-            <a href="#banner" class="carousel-control-prev" data-slide="prev" style="left: 250px">
-                <span class="carousel-control-prev-icon hw-banner-prev"></span>
-            </a>
-            <a href="#banner" class="carousel-control-next" data-slide="next">
-                <span class="carousel-control-next-icon hw-banner-next"></span>
-            </a>
+            <div class="container position-absolute h-100" style="top: 0;left: 50%;margin-left: -600px;">
+                <a href="#banner" class="carousel-control-prev" data-slide="prev" style="left: 200px">
+                    <span class="carousel-control-prev-icon hw-banner-prev"></span>
+                </a>
+                <a href="#banner" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon hw-banner-next"></span>
+                </a>
+            </div>
+            
 
             <!-- 指示符列表 -->
             <ul class="carousel-indicators hw-ind mr-0">
