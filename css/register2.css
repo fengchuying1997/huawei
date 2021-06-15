@@ -46,10 +46,10 @@
         .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabPhone:hover,
         .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail:hover {
           background-color: #e5f2ff; }
-      .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail {
+      .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail i {
+        background-image: url(../img/register/mailIcon.svg); }
+      .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabPhone {
         background-color: #fff; }
-        .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail i {
-          background-image: url(../img/register/mailIcon.svg); }
     .hw-register-main .hw-register-main-center .hw-register-main-detail {
       width: 768px;
       height: 100%;
@@ -96,4 +96,4 @@
   .hw-login-footer p:nth-child(2) {
     color: #999; }
 
-/*# sourceMappingURL=register.css.map */
+/*# sourceMappingURL=register2.css.map */

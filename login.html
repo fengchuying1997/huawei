@@ -13,6 +13,7 @@
     <style>
         body {
             background-color: #f2f2f2;
+            min-width: 960px;
         }
     </style>
 </head>
@@ -33,7 +34,7 @@
         </div>
 
         <div class="hw-login-banner clearfix">
-            <div class="hw-login-banner-left w-50 bg-success h-100">
+            <div class="hw-login-banner-left w-50 h-100">
                 <div>
                     <img src="./img/login/二维码.png" alt="">
 
@@ -45,13 +46,46 @@
                 <div class="hw-login-banner-right-form">
                     <form>
                         <input type="text" id="uname" name="uname" placeholder="手机号/邮箱地址/账号名">
-                        <input type="password" id="upwd" name="upwd">
+                        <input type="password" id="upwd" name="upwd" placeholder="密码">
                         <p>短信验证码登录</p>
+                        <button disabled="disabled">登录</button>
                     </form>
+                    <div class="hw-login-link">
+                        <ul class="list-unstyled clearfix mb-0">
+                            <li>
+                                <a href="register.html">注册</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">忘记密码</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">遇到问题</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hw-login-icon">
+                        <span class="hw-login-icon-qq"></span>
+                        <span class="hw-login-icon-alipay"></span>
+                        <span class="hw-login-icon-weixin"></span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- footer区 -->
+    <div class="hw-login-footer w-100">
+        <p class="mb-2">
+            <a href="javascript:;">华为帐号用户协议</a>
+            <a href="javascript:;">关于华为帐号与隐私的声明</a>
+            <a href="javascript:;">常见问题</a>
+            <a href="javascript:;">Cookies</a>
+        </p>
+        <p>
+            华为帐号  版权所有 © 2011-2021
+        </p>
+    </div>
+
     <script>
         var inputs = document.getElementsByTagName("input");
         for (var input of inputs) {
