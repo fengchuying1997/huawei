@@ -1,0 +1,104 @@
+.hw-login-logo {
+  height: 38px; }
+  .hw-login-logo .hw-login-logo-center {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 10px; }
+    .hw-login-logo .hw-login-logo-center > img {
+      float: left;
+      height: 19px;
+      vertical-align: middle; }
+    .hw-login-logo .hw-login-logo-center > b {
+      float: left;
+      font-size: 12px;
+      color: #191919;
+      border-left: 1px solid #c1c1c1;
+      padding-left: 10px;
+      margin-left: 10px; }
+
+.hw-register-main {
+  background-color: #fff; }
+  .hw-register-main .hw-register-main-center {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto; }
+    .hw-register-main .hw-register-main-center .hw-register-main-tab {
+      float: left;
+      padding-top: 30px; }
+      .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabPhone,
+      .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail {
+        width: 200px;
+        padding: 12px;
+        background-color: #f2f2f2;
+        border-radius: 6px;
+        color: #191919;
+        font-size: 12px;
+        cursor: pointer; }
+        .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabPhone i,
+        .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail i {
+          float: left;
+          width: 12px;
+          height: 12px;
+          background: url(../img/register/phoneIcon.svg) no-repeat;
+          background-size: contain;
+          margin: 0 6px;
+          margin-top: 4px; }
+        .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabPhone:hover,
+        .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail:hover {
+          background-color: #e5f2ff; }
+      .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabEmail i {
+        background-image: url(../img/register/mailIcon.svg); }
+      .hw-register-main .hw-register-main-center .hw-register-main-tab .hw-register-main-tabPhone {
+        background-color: #fff; }
+    .hw-register-main .hw-register-main-center .hw-register-main-detail {
+      width: 768px;
+      height: 100%;
+      margin: 0 auto;
+      padding: 48px 208px 30px;
+      text-align: center;
+      color: #191919; }
+      .hw-register-main .hw-register-main-center .hw-register-main-detail > h2 {
+        font-size: 26px;
+        font-weight: 400; }
+      .hw-register-main .hw-register-main-center .hw-register-main-detail > P {
+        font-size: 14px;
+        margin-bottom: 40px; }
+        .hw-register-main .hw-register-main-center .hw-register-main-detail > P a {
+          text-decoration: none; }
+      .hw-register-main .hw-register-main-center .hw-register-main-detail form div {
+        font-size: 12px;
+        color: #ca141d;
+        text-align: left; }
+      .hw-register-main .hw-register-main-center .hw-register-main-detail form input {
+        width: 100%;
+        height: 38px;
+        border: 0;
+        outline: 0;
+        background-color: #f2f2f2;
+        border-radius: 6px;
+        padding: 0 12px;
+        font-size: 12px;
+        margin-bottom: 20px; }
+      .hw-register-main .hw-register-main-center .hw-register-main-detail form .inputbtn {
+        width: 220px;
+        height: 38px;
+        background-color: #007dff;
+        color: #fff;
+        font-size: 14px; }
+
+.hw-login-footer {
+  height: 88px;
+  text-align: center;
+  padding-top: 30px; }
+  .hw-login-footer p {
+    font-size: 12px; }
+    .hw-login-footer p a {
+      color: #000;
+      padding: 0 15px;
+      border-right: 1px solid #dbeaf2; }
+      .hw-login-footer p a:last-child {
+        border: 0; }
+  .hw-login-footer p:nth-child(2) {
+    color: #999; }
+
+/*# sourceMappingURL=register2.css.map */
